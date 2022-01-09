@@ -1,0 +1,143 @@
+/*/
+
+Fichier CSS du projet gérant les styles de la page principale, je n'ai pas eu le temps de styliser
+toutes les pages :/
+
+/*/
+
+#background
+{
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+
+}
+
+
+
+body
+{
+    flex-direction: column;
+    justify-content: center;  
+}
+
+/* En-tête   */
+
+.main_head
+{
+    /*petit effet dégradé récupéré sur le site écrit juste en dessous */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+100,7db9e8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    width: 100%;        
+    position:fixed;
+    top: -5px;
+    left: -5px;
+
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width:  95%;
+    height: 50px;
+    margin: auto;
+    padding: 60px;
+
+}
+header nav h1
+{
+    font-size: xxx-large;
+    flex: 1 1 40rem;
+    color: rgb(211, 232, 247);  
+    font-family: Marker Felt, fantasy;      
+    
+}
+header nav ul
+{
+        display: flex;
+        flex: 1 4 40rem;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        font-size:x-large ;
+        text-decoration: none;
+        color: #fff;
+        font-family: Marker Felt, fantasy; 
+
+}
+
+header nav a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* PUBLICATIONS */
+
+body
+{
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+}
+
+body textarea
+{
+        resize: none;
+}
+
+body h2
+{
+    padding: 0px 50px 0px;
+    background-color: rgb(189, 227, 255);
+}
+
+#espace
+{
+    width: 100%;
+    height: 180px;
+}
+
+
+
+.conteneur_central
+{
+    width: 800px; 
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+#miniespace
+{
+    height: 60px;
+}
+
+#conteneur_publi
+{
+    flex-direction: column;
+    height: 550px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+    text-align: center;
+    background-color: rgb(189, 227, 255);
+}
+
+#conteneur_commentaires
+{
+    padding: 0px 50px 0px;
+    text-align: left;
+
+
+}
+body p
+{
+        overflow-y:scroll; 
+        border:#000000 1px solid; 
+        width: 650px; 
+        background-color: #eee; 
+        height: 70px;
+}
+
+
